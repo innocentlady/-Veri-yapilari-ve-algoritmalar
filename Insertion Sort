@@ -1,0 +1,31 @@
+Insertion Sort
+[22,27,16,2,18,6]-> Insertion sort
+---------------
+1.Soru:Yukarı verilen dizinin sort türüne göre aşamalarını yazınız
+Baslangic [22,27,16,2,18,6]
+1.adim [22,27,16,2,18,6]  22|27'den kucuk oldugu icin ayni yerinde duruyor.
+2.adim [16,22,27,2,18,6]  16|27 ve 22'den kucuk oldugu icin en basa geciyor.
+3.adim [2,16,22,27,18,6]  2| 27,22 ve 16'dan kucuk oldugu icin en basa geciyor.
+4.adim [2,16,18,22,27,6]  18|27 ve 22'den kucuk oldugu icin ve 16'dan buyuk oldugu icin 16 ile 22 arasina yaziliyor.
+5.adim [2,6,16,18,22,27]  6| 27,22,18 ve 16 dan kucuk oldugu icin ve 2 dan buyuk oldugu icin 2 ile 16 arasina yaziliyor.
+--------------------------------------------------------------------------------------------------------------------------
+2.Soru:Big-O gösterimini yazınız.
+Cevap: O(n^2)
+--------------------------------------------------------------------------------------------------------------------------
+Time Complexity:Dizi siralandiktan sonra 18 sayisi asagidaki case'lerden hangisinin kapsamina girer?Yaziniz
+
+1.Average case:Aradigimiz sayinin ortasinda olmasi
+2.Worst case:Aradigimiz sayinin sonda olmasi
+3.Best case:Aradigimiz sayinin dizininen basinda olmasi
+
+cevap:Average case
+--------------------------------------------------------------------------------------------------------------------------
+Selection Sort
+[7,3,5,8,2,9,4,15,6]
+---------------
+3.Soru:[7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
+Baslangic [7,3,5,8,2,9,4,15,6]
+1.adim [2,3,5,8,7,9,4,15,6]
+2.adim [2,3,5,8,7,9,4,15,6]
+3.adim [2,3,4,8,7,9,5,15,6]
+4.adim [2,3,4,5,7,9,8,15,6]
